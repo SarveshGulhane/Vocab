@@ -1,6 +1,7 @@
 import re
 import string
 from spellchecker import SpellChecker
+import tkinter
 
 dictionary = open('words.txt', 'r').read().split() # open text file
 words = list(dictionary)  # create list of words
